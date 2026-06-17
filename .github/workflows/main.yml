@@ -8,7 +8,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Install dependeciens
         run: npm install
-      - name: Run start
+      - name: Run build
         run: npm build
 
 
