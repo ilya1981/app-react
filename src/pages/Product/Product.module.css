@@ -1,0 +1,29 @@
+.product__wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.product__content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.product__btn {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.product__item-size {
+  display: inline-block;
+  padding: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.product__item-size.selected {
+  background: #727e86;
+  border-radius: 15px;
+  color: #fff;
+}

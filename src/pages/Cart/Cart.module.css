@@ -1,0 +1,12 @@
+.card__wrapper {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+.card__wrapper form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
