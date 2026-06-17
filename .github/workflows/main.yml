@@ -1,0 +1,19 @@
+name: hw_object
+on: [push]
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependeciens
+        run: npm install
+      - name: Run start
+        run: npm build
+
+
+  deploy:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Deploying to production..."
